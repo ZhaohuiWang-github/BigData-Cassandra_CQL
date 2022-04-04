@@ -17,3 +17,13 @@ Demo of Apache Cassandra 2.1, to demonstrate the usage and features of CQL.
 - **comments_by_video and comments_by_user** - Two tables that create two separate, but related, one-to-many relationship between users and comments on videos. Each video has many comments. Each user has many comments. "WITH CLUSTERING ORDER BY" clause is used on each table to keep the latest comments at the beginning of the storage row.
 
 - **video_event** - Example of a time series data model where there can be an unknown amount of records. This example stores each video playback event (START, STOP) with the video timestamp for player advancement and the time of the actual event. From this table we canb derrive where the user left off with the video and where to star tthem again. We can also determine if users are watching an entire video or how many times they viewd a particular video.
+
+
+
+## References
+- [Installing Apache Cassandra on Windows in 2021](https://www.youtube.com/watch?v=hJxlkHafYsQ)
+- [Installing Apache Cassandra 4 on Linux](https://www.youtube.com/watch?v=wezbMP1uBkU)
+- [Developing with Cassandra on Windows](http://www.luketillman.com/developing-with-cassandra-on-windows/)
+- [How to Install Cassandra on Windows 10](https://phoenixnap.com/kb/install-cassandra-on-windows)
+- [How to Create, Drop, Alter, and Truncate Tables in Cassandra](https://phoenixnap.com/kb/create-drop-alter-and-truncate-tables-in-cassandra)
+- [Sample Cassandra CQL Schema](https://github.com/pmcfadin/killrvideo-sample-schema)
