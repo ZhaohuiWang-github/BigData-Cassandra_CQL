@@ -4,6 +4,19 @@ Demo of Apache Cassandra 2.1, to demonstrate the usage and features of CQL.
 - Installed and run distributed NoSQL database management system Apache Cassandra cluster with a single node on Windows10.  
 - Use CQL (Cassandra Query Language) to create and change tables and write queries to find various information through the Cassandra shell.  
 
+
+## Application
+
+This data model is for a fictitious video sharing web site. The features we'll be supporting are:
+
+ - User creation
+ - Video file upload with metadata
+ - Lookup of videos per user
+ - Lookup of videos by tag
+ - Comments on each video
+ - Lookup of all comments made a particular user
+ - Playback tracking per video with the intent of resuming video where they left it.
+
 ## Description of tables
 
 - **users** - Simple static entity table to store data about a person. Uses a List collection to store more than one email per person.
