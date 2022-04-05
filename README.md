@@ -1,6 +1,8 @@
 # BigData-Cassandra_CQL
 Demo of Apache Cassandra 2.1, to demonstrate the usage and features of CQL.
 
+- Installed and run distributed NoSQL database management system Apache Cassandra cluster with a single node on Windows10.  
+- Use CQL (Cassandra Query Language) to create and change tables and write queries to find various information through the Cassandra shell.  
 
 ## Description of tables
 
