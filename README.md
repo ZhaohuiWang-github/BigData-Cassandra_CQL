@@ -1,4 +1,6 @@
 ![](https://img.shields.io/badge/category-Big--Data-success)
+![](https://img.shields.io/badge/Program-Cassandra-green)
+![](https://img.shields.io/badge/resource-Open-blue)
 
 # BigData-Cassandra_CQL
 Demo of Apache Cassandra 2.1, to demonstrate the usage and features of CQL.
